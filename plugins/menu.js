@@ -20,7 +20,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const groupsIn = groups.filter(v => !v.read_only)
 let AdiOfficial = './src/avatar_contact.png'
-let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
+let pantek = 'https://i.ibb.co/yhnqLr3/IMG-20210911-WA0012.jpg'
 
   try {
     AdiOfficial = await conn.getProfilePicture(m.sender)
@@ -152,11 +152,9 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6289504585790_
-│├❒ *Official WhatsApp Bot Groups*
-│├❒ *https://bit.ly/Grupgabutbotv1*
-│├❒ *Tap To Join our Telegram Group*
-│└❒ *https://t.me/gabutsquad44*
+
+
+│└❒ 
 │
 └───────────────────────
 %readmore`
