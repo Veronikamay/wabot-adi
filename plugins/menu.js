@@ -152,8 +152,6 @@ let pantek = 'https://i.ibb.co/yhnqLr3/IMG-20210911-WA0012.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-
-
 │└❒ 
 │
 └───────────────────────

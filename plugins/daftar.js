@@ -3,9 +3,9 @@ const { createHash } = require('crypto')
 let Reg = /(.*)([.|])([0-9]*)$/i
 let handler = async function (m, { text, usedPrefix }) {
   let user = global.DATABASE._data.users[m.sender]
-  let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
-  if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
-  if (!Reg.test(text)) throw `Format salah!\nContoh: *${usedPrefix}daftar AdiOfficial|18*`
+  let pantek = 'https://i.ibb.co/6WqdqKG/IMG-20210911-WA0550.jpg'
+  if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? bisa !, #, .unreg <SN|SERIAL NUMBER>`
+  if (!Reg.test(text)) throw `Format salah!\nContoh: bisa !, #, .daftar Bot|18*`
   let [_, name, splitter, age] = text.match(Reg)
   let totalreg = Object.keys(global.DATABASE._data.users).length
   if (!name) throw 'Nama tidak boleh kosong!'
